@@ -8,7 +8,7 @@ const svc = new Service({
   name: "NodeWebServer",
   description: "WEB NODE SERVICE",
   
-  installPath: './deamon',// => C:\server\node\deamon => nodewebserver.exe
+  installPath: './daemon',// => C:\server\node\daemon => nodewebserver.exe
   script: path.join("D:", "www", "next-project", "server", "index.js"),
   workingDirectory: path.join("D:", "www", "next-project"),
   env: {
